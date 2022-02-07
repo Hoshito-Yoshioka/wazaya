@@ -1,81 +1,197 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>PASTA Wazaya</title>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="wazaya-stylesheet.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <img class="logo" src="/Users/hyoshi/Desktop/prog/images/logo.jpg">
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="wazaya-stylesheet.css">
+<script src="https://kit.fontawesome.com/180d8965ca.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<title>PastaWazaya</title>
+</head>
+
+<body>
+    <!--header-->
+    <div class="header">
+        <h1>わざや</h1>
+        <div class="icon_container">
+            <a class="twitter_icon" href="https://twitter.com/wazaya119" target="_blank"><i class="fab fa-twitter fa-3x"></i></a>
+            <a class="instagram_icon" href="https://www.instagram.com/pasta_wazaya/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
         </div>
-        <div class="header-right">
-          <a href="#" class="login">スマートフォンサイトに移動</a>
-        </div>
-      </div>
-    </header>
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>スパゲティ専門店</h1>
-        <h2>
-          <img src="/Users/hyoshi/Desktop/prog/images/logo.jpg" alt="#">
-        </h2>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup">わざやのTwitterはこちら</a>
-          <p> </p>
-        </div>
-      </div>
     </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>わざやインフォメーション</h2>
+    <!--content-->
+    <!--top-->
+
+    <div class="body_container">
+        <div class="top_content">
+            <div class="side_menu to_right">
+                <a href="">
+                    <h1>Pasta wazaya</h1>
+                </a>
+                <a href="">
+                    <p>about</p>
+                </a>
+                <a href="">
+                    <p>menu</p>
+                </a>
+                <a href="">
+                    <p>media</p>
+                </a>
+                <a href="">
+                    <p>info</p>
+                </a>
+                <a href="">
+                    <p>contact</p>
+                </a>
+            </div>
+            <div class="top_img_container to_left">
+                <img src="images/pasta.header.png">
+            </div>
+            <div class="side_comment to_left">
+                <p>mitaka pasta wazaya</p>
+            </div>
         </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img class="kakinori" src="/Users/hyoshi/Desktop/prog/images/kakinori-pasta.png">
-              <p></p>
+        <!--about-->
+        <div class="about_content">
+            <div class="side_comment to_right">
+                <p>who we are</p>
             </div>
-            <p class="txt-contents">わざやの100種類以上あるメニューをご紹介</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img class="takachannel" src="/Users/hyoshi/Desktop/prog/images/takachannel.png">
-              <p></p>
+            <img src="images/A5E9E4B0-CA57-41A0-90EA-81F5B40D695B.png" class="to_right">
+            <div class="about_comment to_left">
+                <h2>about</h2>
+                <div>
+                    <p>わざやは三鷹のパスタ屋です</p>
+                    <p>今日もたくさん茹でて</p>
+                    <p>たくさん巻いて・・・</p>
+                </div>
             </div>
-            <p class="txt-contents">”たかちゃんねるず”にて紹介されました！</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img class="access" src="/Users/hyoshi/Desktop/prog/images/wazaya-map.png">
-              <p></p>
-            </div>
-            <p class="txt-contents">わざやまでのアクセス</p>
-          </div>
         </div>
-      </div>
+        <!--menu-->
+        <div class="menu_content to_right">
+            <div class="menu_container">
+                <div class="menu_comment">
+                    <h2>menu</h2>
+                    <p>わざやには100種類以上のメニューがあります</p>
+                    <p>オリジナルメニューや</p>
+                    <p>冬には牡蠣のパスタまで</p>
+                    <div class="menu_link">
+                        <a href="">VIEW MORE</a>
+                    </div>
+                </div>
+                <img src="images/14091707936_0000002348_3.jpg">
+            </div>
+            <div class="side_comment">
+                <p>menu</p>
+            </div>
+        </div>
+        <!--media-->
+        <div class="media_content to_left">
+            <div class="side_comment">
+                <p>media</p>
+            </div>
+            <div class="media_container">
+                <img src="images/takachannel.png">
+                <div class="media_comment">
+                    <h2>media</h2>
+                    <p>貴ちゃんねるずの「東京アラートラン」で紹介されました！</p>
+                    <div class="media_link">
+                        <a href="https://www.youtube.com/watch?v=vlZ-vap5nDc&list=PLjGInKgWJ6D6Ssn3-vtH3l0UXPM4q4ztJ&index=4" target="_blank">WATCH VIDEO</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--info-->
+        <div class="info_content">
+            <div class="info_title to_up">
+                <h2>info</h2>
+            </div>
+            <div class="info_container to_up">
+                <div class="info_comment">
+                    <div class="comment_container">
+                        <h3>営業時間</h3>
+                        <div class="info_detail">
+                            <p>11:30 ~ 15:00 / 18:00 ~ 20:00</p>
+                            <p>営業時間の詳細はわざやtwitterをご覧ください</p>
+                        </div>
+                        <h3>定休日</h3>
+                        <div class="info_detail">
+                            <p>火曜日</p>
+                            <p>営業日の詳細はわざやtwitterをご覧ください</p>
+                        </div>
+                        <h3>住所</h3>
+                        <div class="info_detail">
+                            <p>〒181-0013 東京都三鷹市下連雀3丁目37−40</p>
+                        </div>
+                        <h3>電話</h3>
+                        <div class="info_detail">
+                            <p>0422-48-6038</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="map_container">
+                    <iframe class="google_map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0150734244044!2d139.55791055051472!3d35.70124668009242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018efb0f3ca7133%3A0x38c3fa9ed85c1e28!2zUEFTVEEg44KP44GW44KE!5e0!3m2!1sja!2sjp!4v1644056406087!5m2!1sja!2sjp"
+                        width="80%" height="90%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+        <!--contact-->
+        <div class="contact_content">
+            <div class="contact_title to_up">
+                <h2>contact</h2>
+            </div>
+            <div class="contact_container to_up">
+                <div class="phone_container">
+                    <div class="contact_icons">
+                        <p class="fas fa-phone-alt fa-4x"></p>
+                    </div>
+                    <div class="phone_link">
+                        <a href="">電話する</a>
+                    </div>
+                </div>
+                <div class="twitter_container">
+                    <div class="contact_icons">
+                        <p class="fab fa-twitter fa-4x"></p>
+                    </div>
+                    <div class="twitter_link">
+                        <a href="https://twitter.com/wazaya119" target="_blank">Twitterをみる</a>
+                    </div>
+                </div>
+                <div class="instagram_container">
+                    <div class="contact_icons">
+                        <p class="fab fa-instagram fa-4x"></p>
+                    </div>
+                    <div class="instagram_link">
+                        <a href="https://www.instagram.com/pasta_wazaya/" target="_blank">Instagramをみる</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
     </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>営業時間のご案内</h2>
-          <h3>Lunch 11:30 〜 15:00(L.O)</h3>
-          <h3>Dinner 18:00 〜 19:30(L.O)</h3>
-          <h4>※営業時間は変更されることがあります。営業日につきましてもわざや公式Twitterにて発信しておりますのでそちらをご覧ください</h4>
+
+
+    <!--footer-->
+    <div class="footer">
+        <div class="footer_comment">
+            <p>〒181-0013 東京都三鷹市下連雀3丁目37−40</p>
+            <p>©️Pasta わざや</p>
         </div>
-        <a class="btn message">わざや公式Twitter</a>
-      </div>
+        <img src="images/logo.jpg">
     </div>
-    <footer>
-      <div class="container">
-        <img src="/Users/hyoshi/Desktop/prog/images/logo.jpg">
-        <p>三鷹　PASTAわざや</p>
-        <p>〒181-0013 東京都三鷹市下連雀３丁目３７−４０</p>
-      </div>
-    </footer>
-  </body>
+
+    <script>
+        //fadeinのScript
+        var window_h = $(window).height();
+        $(window).on("scroll", function() {
+            var scroll_top = $(window).scrollTop();
+            $(".to_right, .to_left, .to_up").each(function() {
+                var elem_pos = $(this).offset().top;
+
+                if (scroll_top >= elem_pos - window_h + 300) {
+                    $(this).addClass("fadeIn");
+                }
+            });
+        });
+    </script>
+</body>
+
 </html>
